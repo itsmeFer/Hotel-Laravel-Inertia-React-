@@ -26,7 +26,6 @@ export default function Home({ hotels }) {
                     <a href="#" style={{ color: 'white', textDecoration: 'none' }}>Hotels</a>
                     <a href="#" style={{ color: 'white', textDecoration: 'none' }}>Contact</a>
                 </div>
-
                 <button style={{
                     backgroundColor: 'red',
                     color: 'white',
@@ -38,7 +37,7 @@ export default function Home({ hotels }) {
                     Logout
                 </button>
             </nav>
-
+    aeasqeass
             {/* Container Hotel */}
             <div style={{
                 display: 'grid',
@@ -110,7 +109,7 @@ function HotelCard({ hotel }) {
                     {Array.from({ length: 6 }).map((_, index) => (
                         <span key={index} style={{ color: index < hotel.rating ? '#FFD700' : '#DDD', fontSize: '18px' }}>★</span>
                     ))}
-                    <span style={{ fontSize: '14px', color: '#555' }}>({hotel.reviews} reviews)</span>
+                    <span style={{ fontSize: '14px', color: '#555' }}>({hotel.reviews} reviews hotel)</span>
                 </div>
 
                 {/* Harga */}
